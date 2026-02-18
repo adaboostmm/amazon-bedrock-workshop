@@ -1,0 +1,54 @@
+https://fredblog.stlouisfed.org/2026/02/why-is-chocolate-so-expensive/
+--------------------------------------------------------------------------------
+
+1. Today is 19th Feb, 2026. 
+2. I like to know why have chocolate prices increased so dramatically in the last six months. 
+3. Clearly explain why the price increase is specific to chocolate rather than general inflation across all confectionery?
+4. Clearly mention, What role have U.S. trade policies played in making chocolate more expensive?
+5. Provide reasons as why can't cocoa production simply ramp up to meet demand and bring prices down?
+6. Provide conclusion regarding what should consumers and businesses expect going forward regarding chocolate prices?
+7. Use the attached document to answer above.
+
+
+1.Go to the url:
+https://catalog.us-east-1.prod.workshops.aws/amazon-bedrock/en-US/010-intro/012-self-paced-setup
+
+Create a domain on SageMaker Studio.
+
+2. On SageMaker Studio:-> Git clone ->
+https://github.com/aws-samples/amazon-bedrock-workshop
+
+3.Go to url:
+https://catalog.us-east-1.prod.workshops.aws/amazon-bedrock/en-US/120-rag/122-notebook-experience
+
+4. Find your SageMaker execution role:
+
+Add these managed policies to your SageMaker execution role:
+
+    IAMFullAccess,
+    AWSLambda_FullAccess,
+    AmazonS3FullAccess,
+    AmazonBedrockFullAccess,
+
+    Custom policy for Amazon OpenSearch Serverless such as:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "aoss:*",
+            "Resource": "*"
+        }
+    ]
+}
+
+
+5. High level steps on Notebook
+
+    a.Setup
+    b.Create an S3 Data Source and ingest documents into it
+    c.Setup AOSS Vector Index and Configure BKB Access Permissions
+    d.Configure Amazon Bedrock Knowledge Base and Synchronize it with Data Source
+    e.Conclusions and Next Steps
+    f.Cleanup
