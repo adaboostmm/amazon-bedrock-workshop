@@ -1,0 +1,301 @@
+The **Science of Blockchain Conference (SBC) 2025** is a prestigious academic conference focused on the scientific foundations of blockchain technology. 
+## Core Topics at SBC Conferences
+### 1. **Consensus Mechanisms & Protocols**
+- Byzantine Fault Tolerance (BFT)
+- Proof of Stake (PoS) variations
+- DAG-based consensus
+- **Popularity: ??????????** — Foundational to every blockchain; Ethereum's shift to PoS made this enormously relevant.
+
+### 2. **Decentralized Finance (DeFi)**
+- Automated Market Makers (AMMs)
+- Lending protocols
+- Stablecoin mechanisms
+- Liquidity provisioning
+- **Popularity: ??????????** — DeFi remains one of the most actively used and researched areas with billions in TVL.
+
+### 3. **MEV (Maximal Extractable Value)**
+- Front-running, sandwich attacks
+- MEV mitigation strategies (Flashbots, PBS - Proposer-Builder Separation)
+- Order-fair sequencing
+- **Popularity: ??????????** — One of the **hottest research topics** in recent years, directly impacting Ethereum's architecture.
+
+### 4. **Zero-Knowledge Proofs (ZKPs)**
+- zk-SNARKs, zk-STARKs
+- ZK-Rollups (zkSync, StarkNet, Polygon zkEVM)
+- Recursive proofs
+- **Popularity: ??????????** — Arguably the **most popular topic** in blockchain research right now. ZK-rollups are being deployed at scale for Ethereum scaling.
+
+### 5. **Scaling Solutions (Layer 2)**
+- Rollups (Optimistic & ZK)
+- Data availability layers
+- Sharding
+- **Popularity: ??????????** — Critical for blockchain adoption; Ethereum's roadmap is centered around this.
+
+### 6. **Cryptographic Primitives**
+- Multi-party computation (MPC)
+- Threshold signatures
+- Verifiable Random Functions (VRFs)
+- Fully Homomorphic Encryption (FHE)
+- **Popularity: ????????** — FHE is gaining massive traction for privacy-preserving computation on-chain.
+
+### 7. **Mechanism Design & Game Theory**
+- Auction design (e.g., EIP-1559 fee mechanisms)
+- Incentive compatibility
+- Token economics
+- **Popularity: ????????** — Essential for protocol design; EIP-1559 is a landmark example.
+
+### 8. **Security & Formal Verification**
+- Smart contract vulnerabilities
+- Formal methods for protocol verification
+- Economic security analysis
+- **Popularity: ????????** — Growing importance given the billions lost to exploits.
+
+### 9. **Decentralized Identity & Privacy**
+- Self-sovereign identity
+- Private transactions
+- Regulatory-compliant privacy
+- **Popularity: ??????** — Growing but still in earlier adoption stages.
+
+### 10. **Data Availability & Modular Blockchains**
+- Data availability sampling (DAS)
+- EigenDA, Celestia, Danksharding
+- **Popularity: ????????** — A rapidly emerging area tied to Ethereum's modular roadmap.
+
+---
+
+## ?? The **Most Popular & Widely Used** Topics
+
+| Rank | Topic | Why It's Dominant |
+|------|-------|-------------------|
+| **1** | **Zero-Knowledge Proofs** | Massive investment, multiple live ZK-rollups, foundational for privacy & scaling |
+| **2** | **MEV Research** | Directly reshaping Ethereum's architecture (PBS, Flashbots, SUAVE) |
+| **3** | **DeFi Mechanism Design** | Billions in active use; AMMs, lending, and stablecoin research is critical |
+| **4** | **Layer 2 Scaling** | Optimistic & ZK rollups are live and processing millions of transactions |
+| **5** | **Consensus Protocols** | Every new chain needs this; PoS research continues to evolve |
+
+---
+
+## Summary
+> **Zero-Knowledge Proofs** and **MEV** are arguably the two **most dominant and actively researched** topics in the blockchain science community right now. ZKPs are being deployed in production systems (zkSync, StarkNet, Polygon zkEVM), while MEV research is fundamentally changing how block production works on Ethereum.
+
+# Analysis of SBC 2025 Papers: Most Popular & Industry-Relevant
+
+Based on the conference program screenshot, here are the papers that are **most popular and widely used in industry**:
+
+---
+
+## ?? Tier 1: Highest Industry Impact
+
+### 1. **"A Place for Everyone vs Everyone in its Place: Measuring and Attacking the Ethereum Global Network"**
+- **Session:** Infrastructure Security
+- **Why it matters:** Directly addresses **Ethereum network security**, which impacts every dApp, exchange, and DeFi protocol. Ethereum security research is immediately applicable to the **multi-billion dollar Ethereum ecosystem**.
+- **Industry use:** Security auditing firms, Ethereum client teams, infrastructure providers
+
+---
+
+### 2. **"Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue"**
+- **Session:** Infrastructure Security
+- **Why it matters:** Validator privacy is a **critical concern** for institutional stakers (Coinbase, Lido, Kraken, etc.). This research directly affects how **staking-as-a-service** providers and solo validators operate.
+- **Industry use:** Staking providers, validator operators, privacy tool developers
+
+---
+
+### 3. **"Invited: Financial Privacy in the Digital Age"**
+- **Speaker:** Hester Peirce (Commissioner at the SEC)
+- **Why it matters:** Regulatory perspective from an **SEC Commissioner** — this is enormously influential for **compliance frameworks** across the entire crypto industry.
+- **Industry use:** Every regulated crypto company, exchanges, DeFi compliance teams
+
+---
+
+### 4. **"Mysticeti: Reaching the Latency Limits with Uncertified DAG"**
+- **Session:** Consensus I
+- **Why it matters:** This is the consensus protocol behind **Sui blockchain** (developed by Mysten Labs). It's **already deployed in production** and processes millions of transactions.
+- **Industry use:** Sui ecosystem, high-throughput blockchain design
+
+---
+
+### 5. **"Dynamic zk-SNARKs"** & **"Efficient SNARKs" (Session 4)**
+- **Why it matters:** ZK-SNARKs are the backbone of **ZK-rollups** (zkSync, StarkNet, Polygon zkEVM, Scroll) — a multi-billion dollar sector. Improvements in SNARK efficiency directly translate to **lower gas costs** and faster proofs.
+- **Industry use:** All ZK-rollup teams, privacy protocols, identity verification systems
+
+---
+
+### 6. **"GarTDA and PARE: Faster and Smaller SNARKs via Efficient Polynomial Commitments"**
+- **Session:** Efficient SNARKs
+- **Why it matters:** Polynomial commitment schemes are **foundational cryptographic primitives** used in virtually every modern ZK system. Making them faster and smaller has **immediate production impact**.
+- **Industry use:** ZK-rollup infrastructure, proof generation services
+
+---
+
+### 7. **"Data Availability Sampling with Efficient Repair: Definitions and New Constructions"**
+- **Session:** Blobs in Ethereum
+- **Why it matters:** Data availability sampling (DAS) is **central to Ethereum's scaling roadmap** (Danksharding). This is one of the most actively developed areas in Ethereum R&D.
+- **Industry use:** Ethereum core development, DA layers (Celestia, EigenDA, Avail)
+
+---
+
+### 8. **"The Early Days of the Ethereum Blob Fee Market and Lessons Learnt"**
+- **Session:** Blobs in Ethereum
+- **Why it matters:** EIP-4844 (Proto-Danksharding) blobs are **already live on Ethereum mainnet**. Understanding blob fee market dynamics directly impacts **every Layer 2 rollup's cost structure**.
+- **Industry use:** Optimism, Arbitrum, Base, zkSync, all L2s
+
+---
+
+### 9. **"Voting-Bloc Entropy: A New Metric for DAO Decentralization"**
+- **Session:** Measuring Decentralization
+- **Why it matters:** DAOs govern **billions of dollars** in treasury assets. Measuring decentralization is critical for **governance design** and regulatory classification.
+- **Industry use:** DAO tooling (Snapshot, Tally), governance frameworks
+
+---
+
+### 10. **"Cashweb's c-map: Open Source Library"** & **"Interactive Multi-Credential Authentications"**
+- **Session:** Implementations
+- **Why it matters:** Production-ready implementations and credential systems are directly used in **wallet infrastructure, identity systems, and authentication**.
+- **Industry use:** Wallet providers, identity platforms
+
+---
+
+### 11. **"Liquidations: Privately Liquifying Blockchain Assets"**
+- **Session:** Privacy
+- **Why it matters:** Liquidations in DeFi are a **massive MEV opportunity** and source of user harm. Private liquidation mechanisms could transform how **Aave, Compound, MakerDAO** and similar protocols work.
+- **Industry use:** DeFi lending protocols, MEV protection
+
+---
+
+### 12. **"BKVT: Bridging Bitcoin to Second Layers"** & **"Trusted Vaults: Integrating Bitcoin with the Smart Contract Economy"**
+- **Session:** Bitcoin Development
+- **Why it matters:** Bitcoin Layer 2 development (Lightning, BitVM, etc.) is experiencing a **massive resurgence** with billions in investment. Bridging Bitcoin to smart contract platforms is one of the **hottest areas in 2024-2025**.
+- **Industry use:** Bitcoin L2s, cross-chain bridges, Bitcoin DeFi
+
+---
+
+### 13. **"Proof Systems Applications" (Session 12)**
+- **"Tensor: An Optimizing Compiler for Efficient Zero-Knowledge Circuits"**
+- **"Efficient Vector Range Proofs and Their Application to PVSS"**
+- **Why it matters:** Compiler optimization for ZK circuits directly impacts **proof generation costs** across the entire ZK ecosystem.
+- **Industry use:** ZK infrastructure companies, rollup teams
+
+---
+
+### 14. **"Mechanism Design" (Session 13)**
+- **"Quantifying the Value of Revert Protection"**
+- **"Latency Advantages in Common Value Auctions"**
+- **Why it matters:** Mechanism design directly shapes **fee markets, MEV auctions (Flashbots/SUAVE), and protocol incentives**. Revert protection is used by **Flashbots Protect, MEV Blocker**, and similar services handling millions of transactions.
+- **Industry use:** Flashbots, block builders, DEX protocols
+
+---
+
+## ?? Summary Ranking by Industry Adoption
+
+| Rank | Paper/Topic | Industry Readiness |
+|------|------------|-------------------|
+| **1** | Blob Fee Market & Data Availability | ? **Already live on Ethereum mainnet** |
+| **2** | Mysticeti (Sui Consensus) | ? **Already in production** |
+| **3** | Efficient SNARKs / GarTDA+PARE | ? **Used by all ZK-rollups** |
+| **4** | Ethereum Validator Deanonymization | ?? **Critical for staking industry** |
+| **5** | Bitcoin L2 Bridging (BKVT) | ?? **Rapidly growing sector** |
+| **6** | Liquidation Privacy | ?? **High DeFi demand** |
+| **7** | MEV / Revert Protection Mechanism Design | ? **Flashbots ecosystem** |
+| **8** | SEC Commissioner Talk (Regulation) | ? **Shapes entire industry** |
+| **9** | DAO Decentralization Metrics | ?? **Growing governance need** |
+| **10** | ZK Circuit Compilers (Tensor) | ?? **Developer tooling demand** |
+
+---
+
+## ?? Key Takeaway
+
+The **most impactful papers** from SBC 2025 cluster around three dominant themes:
+
+1. **?? Zero-Knowledge Proofs & SNARKs** — The largest cluster of papers, reflecting ZKP's status as the **most transformative technology** in blockchain
+2. **?? Ethereum Infrastructure** (Blobs, Validators, MEV) — Directly affecting the **largest smart contract platform**
+3. **? Bitcoin Layer 2 Development** — Reflecting the **resurgence of Bitcoin programmability**
+
+These align with where **the most venture capital, developer activity, and production deployments** are concentrated in 2024-2025.
+# Papers Focusing on MEV at SBC 2025
+
+Based on the conference program, here are the papers that **directly or closely relate to MEV (Maximal Extractable Value)**:
+
+---
+
+## ?? Directly MEV-Focused Papers
+
+### 1. **"The Early Days of the Ethereum Blob Fee Market and Lessons Learnt"**
+- **Session 6:** Blobs in Ethereum
+- **Authors:** Lioba Heimbach (ETH Zurich), Jason Milionis (Columbia University)
+- **MEV Relevance:** Blob fee markets create **new MEV opportunities** in how L2 sequencers post data to L1. Understanding blob fee dynamics is critical for **block builders and searchers** extracting value from L2 batch submissions.
+
+---
+
+### 2. **"Sak: Time to be Selffes?! Demystifying the Landscape of Selfish Mining Strategies and Models"**
+- **Session 9:** Consensus II
+- **Authors:** Colin Finkbeiner, Mohamed E. Najd (University of Connecticut); Julia Guskind (Boston University); Ghada Almashaqbeh (University of Connecticut)
+- **MEV Relevance:** Selfish mining is a form of **consensus-level MEV extraction** where miners/validators strategically withhold blocks to gain disproportionate rewards. This directly relates to **MEV at the consensus layer**.
+
+---
+
+### 3. **"Good Things Come To Those Who Wait: Dishonest Majority Coin Flipping Requires Delay Functions"**
+- **Session 9:** Consensus II
+- **Authors:** Juan Garay (NYU & a]6 crypto); Bene?t Buro (UTU); Miranda Christ, Yuval Efron (Columbia University)
+- **MEV Relevance:** Delay functions and fair ordering are **key MEV mitigation techniques**. This research addresses how to prevent manipulation in randomness generation, which is connected to **fair transaction ordering**.
+
+---
+
+### 4. **"Quantifying the Value of Revert Protection"**
+- **Session 13:** Mechanism Design
+- **Authors:** Brian Z. Zhu (Columbia University); Xin Wan (Uniswap Labs); Ciamac C. Moallemi (Columbia University / Paradigm / Uniswap Labs); Dan Robinson (Paradigm); Brad Bachu (Uniswap Labs)
+- **MEV Relevance:** **Directly MEV-focused.** Revert protection is a core feature of **Flashbots Protect and MEV Blocker**. This paper quantifies the economic value users gain from being protected against **failed transactions caused by MEV bots** (sandwich attacks, front-running). The authorship from **Paradigm and Uniswap Labs** signals direct industry application.
+
+---
+
+### 5. **"Latency Advantages in Common Value Auctions"**
+- **Session 13:** Mechanism Design
+- **Authors:** Ciamac C. Moallemi (Columbia University / Paradigm / Uniswap Labs); Mallesh M Pai (Consensus / Paradigm); Dan Robinson (Paradigm)
+- **MEV Relevance:** **Directly MEV-focused.** Latency advantages are at the **heart of MEV extraction** — faster actors can front-run, back-run, and sandwich slower participants. This paper analyzes auction mechanisms (relevant to **MEV auctions, Flashbots SUAVE, and Proposer-Builder Separation**). Again authored by **Paradigm** researchers who are leading MEV research.
+
+---
+
+### 6. **"LeveragingConomic Recovery from Manipulated Signals, with Applications to Decentralized Physical Infrastructure"**
+- **Session 13:** Mechanism Design
+- **Authors:** Jason Milionis (Columbia University); Anu Energizer (Technical University of Munich); Joseph Bonneau (NYU & a16z crypto); Scott Duke Kominers (Harvard University & a16z crypto)
+- **MEV Relevance:** Signal manipulation and economic recovery mechanisms relate to **MEV in broader decentralized systems** — including how manipulated price oracles and signals can be exploited for extractable value.
+
+---
+
+### 7. **"Invited: The Evolving Art of Agreement: Post-Blockchain Theory and Practice of Consensus Protocols"**
+- **Session 9:** Consensus II
+- **Authors:** Aggelos Kiayias (University of Edinburgh and IOG)
+- **MEV Relevance:** Consensus protocol design has **deep implications for MEV** — how transactions are ordered, who gets to propose blocks, and what fairness guarantees exist are all consensus-level decisions that determine MEV opportunities.
+
+---
+
+### 8. **"No Fish Is Too Big for Flash Boys! Frontrunning on DAG-based Blockchains"**
+- **Session 9:** Consensus II
+- **Authors:** Jianting Zhang (Purdue University); Anisht Kate (Purdue University / Supra Research)
+- **MEV Relevance:** **Directly MEV-focused.** The title "Flash Boys" is a direct reference to **MEV/front-running**. This paper examines how front-running (a primary form of MEV) manifests in **DAG-based blockchains** like Sui, IOTA, and similar systems — extending MEV research beyond traditional linear blockchains.
+
+---
+
+## ?? Summary Table
+
+| Paper | Session | MEV Relevance | Industry Impact |
+|-------|---------|---------------|-----------------|
+| **Quantifying the Value of Revert Protection** | Mechanism Design | ?? **Direct MEV** | Flashbots Protect, MEV Blocker, Uniswap |
+| **Latency Advantages in Common Value Auctions** | Mechanism Design | ?? **Direct MEV** | MEV auctions, PBS, SUAVE |
+| **No Fish Is Too Big for Flash Boys! Frontrunning on DAG-based Blockchains** | Consensus II | ?? **Direct MEV** | DAG chains (Sui, IOTA) |
+| **Early Days of Ethereum Blob Fee Market** | Blobs in Ethereum | ?? **MEV-adjacent** | L2 rollups, block builders |
+| **Selfish Mining Strategies (Sak)** | Consensus II | ?? **Consensus-level MEV** | Mining pools, validators |
+| **Leveraging Economic Recovery from Manipulated Signals** | Mechanism Design | ?? **MEV-adjacent** | Oracle systems, DePIN |
+| **Dishonest Majority Coin Flipping & Delay Functions** | Consensus II | ?? **MEV mitigation** | Fair ordering protocols |
+| **Evolving Art of Agreement (Invited)** | Consensus II | ?? **MEV implications** | Consensus design |
+
+---
+
+## ?? Key Takeaway
+
+The **three most directly MEV-focused papers** are:
+
+1. **"Quantifying the Value of Revert Protection"** — From **Paradigm + Uniswap Labs**, the most practically applicable MEV paper
+2. **"Latency Advantages in Common Value Auctions"** — From **Paradigm**, addressing the fundamental economics of MEV extraction
+3. **"No Fish Is Too Big for Flash Boys!"** — Extending MEV research to **DAG-based blockchains**, a novel and important direction
+
+The **Paradigm** team (Dan Robinson, Ciamac Moallemi) is notably dominant in MEV research at this conference, reflecting their position as **industry leaders in MEV mechanism design**.
